@@ -1,14 +1,14 @@
 /* Select all elements inside <div> elements and set their values:
 -  box-sizing: border-box; - padding and border are 
 included in an element's total width and height;
-- value of font-family property are set to 'Open Sans', sans-serif;
-- value of font-size property are set to 1.125rem
+- value of font-family property is set to 'Open Sans', sans-serif;
+- value of font-size property is set to 1.125rem
 (Google Chrome font-size reccomended default setting 'Medium': 
 font-size: 16px;), 'font-size' for the web page defined with 
-values '18px' or 1.125 to define it dependend of user browser font-size setting;
+values '18px' or 1.125 to define it depending on user browser font-size setting;
 - text color 'white'; 
 - specify the height of the line with 'line-height' property 
-and set it's value to 1.6 */
+and set its value to 1.6 */
 
 div * {
     box-sizing: border-box;
@@ -37,7 +37,7 @@ body {
 }
 
 /* Capitalize each word in 'h1', 'dt', and 'dd' elements 
-with 'text-transform' property which set to 'capitalize' value */
+with 'text-transform' property which is set to 'capitalize' value */
 
 .header__fullname,
 .information__descriptionlist>* {
@@ -45,7 +45,7 @@ with 'text-transform' property which set to 'capitalize' value */
 }
 
 /* Set the description list terms 'dt' 'font-weight' property to 'bold' value;
-the font size set to 1.15 times the root element font size */
+the font size is set to 1.15 times the root element font size */
 
 .information__descriptionlist__term {
     font-size: 1.15em;
@@ -83,7 +83,7 @@ and 'font-weight' property's value to 'bold'*/
 /* Start styling of the main elements */
 
 /*------------------------------------------------------*/
-/* Start styling of the section of id 'introduction' elements */
+/* Start styling of the block with id 'introduction' elements */
 
 /* Add style to the block 'introduction__image-container':
 - add 'width' property and set it to the value '50%';
@@ -123,13 +123,13 @@ properties to '1em' and '.65em' values accordingly */
     margin-block-end: .65em;
 }
 
-/* End styling of section of id 'introduction' elements */
+/* End styling of the block with id 'introduction' elements */
 /*------------------------------------------------------*/
 
 /*------------------------------------------------------*/
-/* Start styling of the section of id 'information' elements */
+/* Start styling of the block with id 'information' elements */
 
-/* Move #information section below the floating elements 
+/* Move #information block below the floating elements 
 (.introduction__image-container and .introduction__bio) with 
 setting 'clear' property to 'left' value*/
 
@@ -146,7 +146,7 @@ setting 'clear' property to 'left' value*/
     padding: 1.15em;
 }
 
-/* End styling of section of id 'information' elements */
+/* End styling of the block with id 'information' elements */
 /*------------------------------------------------------*/
 
 /* End styling of the main elements */
@@ -162,5 +162,5 @@ footer {
     display: none;
 }
 
-/* Start styling of the footer elements */
+/* End styling of the footer elements */
 /*------------------------------------------------------*/
