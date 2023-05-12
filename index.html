@@ -1,19 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="GitHub Pages Repository">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="course" content="23S_MTM6201_010 Web Development II">
+    <meta name="author" content="Olga Durham">
+    <meta name="st#" content="040687883">
+    <meta name="completed" content="2023-05-12">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MTM6201 Week 1 Demo</title>
+    <title>olga durham</title>
+    <!-- add links for 'Open Sans' Google font for the webpage -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- add link:css reset.css - CSS reset code before the main.css stylesheet -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- the link:css main.css - CSS main code of the developer stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
+
 <body>
+    <!-- create a block with class 'wrapper' -->
     <div class="wrapper">
+        <!-- add a header with content in it -->
         <header>
-            <h1>MTM6201 Week 1 Demo</h1>
+            <!-- create a block with class 'header__wrapper' -->
+            <div class="header__wrapper">
+                <!-- add heading h1 with class 'header__fullname' -->
+                <h1 class="header__fullname">olga durham</h1>
+            </div>
         </header>
+        <!-- add a main with content in it -->
         <main>
-            <p>Welcome to Week 1 of Web Dev II!</p>
+            <!-- create a block with class 'main-wrapper' -->
+            <div class="main__wrapper">
+                <!-- add a section with id 'introduction' with content in it -->
+                <section id="introduction">
+                    <!-- create a block with class  -->
+                    <div class="introduction__wrapper">
+                        <!-- create a block with class 'introduction__image-container' -->
+                        <div class="introduction__image-container">
+                            <!-- add an image with class 'introduction__image' -->
+                            <img src="images/olgadurham.jpg" alt="Olga Durham" class="introduction__image">
+                        </div>
+                        <!-- create a block with class 'introduction__bio' -->
+                        <div class="introduction__bio">
+                            <!-- add a paragraph with class 'introduction__text' -->
+                            <p class="introduction__text">Algonquin College student in the first year of the Interactive
+                                Media Design program, an advocate of continuous learning and improvement with aspiration
+                                to creative problem solving. Team player and team leader in various student projects
+                                with strong ambitions to achieve the "never fail project".</p>
+                            <!-- add a paragraph with class 'introduction__text' -->
+                            <p class="introduction__text">Active communicator and data processor for generating the best
+                                ideas for the current projects. Risk taker with willingness to compromise. Strategical
+                                thinker and time management conductor. Personal interest in Adobe Creative Apps learning
+                                and applying the new knowledge for the IMD program and for the personal creative
+                                projects. Integration of self created works (photography, drawings) into IMD program
+                                projects and assignments.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- add a section with id 'information' with content in it -->
+                <section id="information">
+                    <!-- create a block with class 'information-wrapper' -->
+                    <div class="information__wrapper">
+                        <!-- create a block with class 'information__descriptionlist-container' -->
+                        <div class="information__descriptionlist-container">
+                            <!-- add a description list with class 'information__descriptionlist' with content in it -->
+                            <dl class="information__descriptionlist">
+                                <!-- add a description list term with class 'information__descriptionlist__term' -->
+                                <dt class="information__descriptionlist__term">program</dt>
+                                <!-- add a description list data with class 'information__descriptionlist__data' -->
+                                <dd class="information__descriptionlist__data">interactive meida design</dd>
+                                <!-- add a description list term with class 'information__descriptionlist__term' -->
+                                <dt class="information__descriptionlist__term">course</dt>
+                                <!-- add a description list data with class 'information__descriptionlist__data' -->
+                                <dd class="information__descriptionlist__data">MTM6201 - web development II</dd>
+                                <!-- add a description list term with class 'information__descriptionlist__term' -->
+                                <dt class="information__descriptionlist__term">hobbies</dt>
+                                <!-- add a description list data with class 'information__descriptionlist__data' -->
+                                <dd class="information__descriptionlist__data">adobe apps learning, udemy learning,
+                                    photography, gardening, travelling
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
+        <!-- add a footer with content in it (to keep the web page structure; no displayed for this assignment) -->
+        <footer>footer
+            <div>
+                content
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>

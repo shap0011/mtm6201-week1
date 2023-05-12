@@ -1,0 +1,166 @@
+/* Select all elements inside <div> elements and set their values:
+-  box-sizing: border-box; - padding and border are 
+included in an element's total width and height;
+- value of font-family property are set to 'Open Sans', sans-serif;
+- value of font-size property are set to 1.125rem
+(Google Chrome font-size reccomended default setting 'Medium': 
+font-size: 16px;), 'font-size' for the web page defined with 
+values '18px' or 1.125 to define it dependend of user browser font-size setting;
+- text color 'white'; 
+- specify the height of the line with 'line-height' property 
+and set it's value to 1.6 */
+
+div * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Apply the #313211 color to the <body> background */
+
+body {
+    background: #313211;
+}
+
+/* Add style to block 'wrapper': 
+- define its 'width' property with value '90%';
+- apply 'auto' value to the property 'height';
+- center the block '.wrapper' with setting its left and right margins to auto;
+- add top and bottom margins and set them to 1.11em */
+
+.wrapper {
+    width: 90%;
+    height: auto;
+    margin: 1.11em auto;
+}
+
+/* Capitalize each word in 'h1', 'dt', and 'dd' elements 
+with 'text-transform' property which set to 'capitalize' value */
+
+.header__fullname,
+.information__descriptionlist>* {
+    text-transform: capitalize;
+}
+
+/* Set the description list terms 'dt' 'font-weight' property to 'bold' value;
+the font size set to 1.15 times the root element font size */
+
+.information__descriptionlist__term {
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+
+/*------------------------------------------------------*/
+/* Start styling of the header elements */
+
+/* Style header 'h1' with assigning 'font-size' property's value to '2em'
+and 'font-weight' property's value to 'bold'*/
+
+.header__fullname {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Style block with class 'header__wrapper':
+- set its 'background' property to #189a3d;
+- set left and right paddings to '1.15em' value, top and bottom paddings to '0' value;
+- add 'margin-bottom' property and set its value to '1.3em' */
+
+.header__wrapper {
+    background: #186a3d;
+    padding: 0 1.15em;
+    margin-bottom: 1.3em;
+}
+
+/* End styling of the header elements */
+/*------------------------------------------------------*/
+
+
+/*------------------------------------------------------*/
+/* Start styling of the main elements */
+
+/*------------------------------------------------------*/
+/* Start styling of the section of id 'introduction' elements */
+
+/* Add style to the block 'introduction__image-container':
+- add 'width' property and set it to the value '50%';
+- add 'max-width' property and set it to the value '150px' as required;
+- add 'float' property and set it to the value 'left' 
+to wrapp the bio text around the image;
+- add 'margin-right' property and set it to the value 'left'; */
+
+.introduction__image-container {
+    width: 50%;
+    max-width: 150px;
+    float: left;
+    margin-right: 1.2em;
+}
+
+/* Style image with class 'introduction__image' with setting 
+the 'witdh' property to '100%' value 
+and 'vertical-align' property to 'top' value */
+
+.introduction__image {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* Add to .introduction__bio block 'background' property 
+and set its value to 'transparent */
+
+.introduction__bio {
+    background: transparent;
+}
+
+/* Set paragraphs' 'margin-block-start' and 'margin-block-end' 
+properties to '1em' and '.65em' values accordingly */
+
+.introduction__text {
+    margin-block-start: 1em;
+    margin-block-end: .65em;
+}
+
+/* End styling of section of id 'introduction' elements */
+/*------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+/* Start styling of the section of id 'information' elements */
+
+/* Move #information section below the floating elements 
+(.introduction__image-container and .introduction__bio) with 
+setting 'clear' property to 'left' value*/
+
+#information>* {
+    clear: left;
+}
+
+/* Style block with class 'information__wrapper':
+- set the 'background' value to #186a3d;
+- add padding and set it to '1.15em' value */
+
+.information__wrapper {
+    background: #186a3d;
+    padding: 1.15em;
+}
+
+/* End styling of section of id 'information' elements */
+/*------------------------------------------------------*/
+
+/* End styling of the main elements */
+/*------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+/* Start styling of the footer elements */
+
+/* Hide the <footer> element and its content with 'display' 
+property which set to 'none' value */
+
+footer {
+    display: none;
+}
+
+/* Start styling of the footer elements */
+/*------------------------------------------------------*/
