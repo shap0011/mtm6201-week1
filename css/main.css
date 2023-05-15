@@ -86,14 +86,14 @@ and 'font-weight' property's value to 'bold'*/
 /* Start styling of the block with id 'introduction' elements */
 
 /* Add style to the block 'introduction__image-container':
-- add 'width' property and set it to the value '50%';
+- add 'width' property and set it to the value '90%';
 - add 'max-width' property and set it to the value '150px' as required;
 - add 'float' property and set it to the value 'left' 
 to wrapp the bio text around the image;
 - add 'margin-right' property and set it to the value 'left'; */
 
 .introduction__image-container {
-    width: 50%;
+    width: 90%;
     max-width: 150px;
     float: left;
     margin-right: 1.2em;
@@ -109,7 +109,7 @@ and 'vertical-align' property to 'top' value */
 }
 
 /* Add to .introduction__bio block 'background' property 
-and set its value to 'transparent */
+and set its value to 'transparent' */
 
 .introduction__bio {
     background: transparent;
