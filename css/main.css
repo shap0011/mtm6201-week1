@@ -108,13 +108,6 @@ and 'vertical-align' property to 'top' value */
     vertical-align: top;
 }
 
-/* Add to .introduction__bio block 'background' property 
-and set its value to 'transparent' */
-
-.introduction__bio {
-    background: transparent;
-}
-
 /* Set paragraphs' 'margin-block-start' and 'margin-block-end' 
 properties to '1em' and '.65em' values accordingly */
 
